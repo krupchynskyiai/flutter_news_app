@@ -47,10 +47,10 @@ class CategoryNews {
           //initialize model class
 
           ArticleModel articleModel = ArticleModel(
-              title: element.title,
-              description: element.description,
-              url: element.url,
-              urlToImage: element.urlToImage);
+              title: element['title'],
+              description: element['description'],
+              url: element['url'],
+              urlToImage: element['urlToImage']);
 
           datatobesaved.add(articleModel);
         }
